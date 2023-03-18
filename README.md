@@ -12,7 +12,12 @@
 - [ONNX (Open Neural Network Exchange )](https://onnx.ai/) is an open format built to represent machine learning models  i.e a common file format to enable AI developers to use models with a variety of frameworks, tools, runtimes, and compilers.
 - After the coverting the pytorch model to onnx format
 - With [onnxruntime](https://onnxruntime.ai/docs/get-started/with-python.html) we can make faster inference without any pytorch or any other deep learning framework dependencies 
-- latest [onnxruntime](https://onnxruntime.ai/docs/get-started/with-python.html) total pip package or wheel size is around 15-16mb.
-- We can view the model architecture by uploading onnx file to https://netron.app/
+- latest [onnxruntime](https://onnxruntime.ai/docs/get-started/with-python.html) total pip package or wheel size is only around 15-16mb.
+- We can view the model architecture by uploading onnx model file to https://netron.app/
+
+<p align="center">
+  <img width="250" height="1000" src="https://user-images.githubusercontent.com/78400305/226109036-13d11750-107c-40dd-a0fe-9399cd8f9662.png">
+</p>
+
 
 
